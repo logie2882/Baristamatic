@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "760588d2-1a0c-48cd-b7f1-d24fc030be77",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Inventory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/coffeApp/baristamatic/v1/inventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffeApp",
+						"baristamatic",
+						"v1",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/coffeApp/baristamatic/v1/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffeApp",
+						"baristamatic",
+						"v1",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DrinkRequest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "drink_Id",
+						"value": "5",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/coffeApp/baristamatic/v1/drinkMenu/drinkRequested",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffeApp",
+						"baristamatic",
+						"v1",
+						"drinkMenu",
+						"drinkRequested"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RestockInventory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/coffeApp/baristamatic/v1/restockInventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffeApp",
+						"baristamatic",
+						"v1",
+						"restockInventory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
